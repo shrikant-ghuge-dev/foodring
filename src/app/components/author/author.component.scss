@@ -1,0 +1,32 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    .author-wrap {
+        border: 1px solid;
+        padding: 40px 20px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
+        .name {
+            color: #4c504e;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        p {
+            text-align: center;
+
+            a {
+                color: #005062;
+                border-bottom: 1px solid #005062;
+                margin: 0 1rem;
+                text-decoration: none;
+                font-size: 16px;
+            }
+        }
+    }
+}

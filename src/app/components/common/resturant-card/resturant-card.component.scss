@@ -1,0 +1,49 @@
+.restro-container {
+    text-align: center;
+    width: 15rem;
+    border: 1px solid #fff;
+    margin: 1rem;
+    padding: 1rem;
+
+    &:hover {
+        border: 1px solid #e0d7d7;
+        box-shadow: 0 6px 12px -2px #32325d40, 0 3px 7px -3px #0000004d;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .details {
+        color: gray;
+        font-size: 12px;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .name {
+        color: #4f5252;
+        padding: 0.5rem 0;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: left;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .rating-price-wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .rating {
+            background-color: rgb(72, 196, 121);
+            color: white;
+            padding: 3px 8px;
+        }
+
+        .lbl {
+            color: gray;
+        }
+    }
+}

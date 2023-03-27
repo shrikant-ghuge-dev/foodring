@@ -1,0 +1,30 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #005062;
+    color: white;
+    padding: 35px;
+
+    .offer-text {
+        h3 {
+            margin-bottom: 1.5rem;
+            font-size: 3rem;
+            font-weight: 500;
+        }
+
+        p {
+            color: #eceaea;
+            font-size: 1.5rem;
+            font-weight: 100;
+        }
+    }
+
+    .offer-img {
+        height: 12rem;
+
+        img {
+            height: 100%;
+        }
+    }
+}
