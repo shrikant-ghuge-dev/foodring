@@ -1,8 +1,10 @@
 <app-banner></app-banner>
-<mat-grid-list cols="4">
-    <div class="contsiner" *ngFor="let i of restroList">
-        <mat-grid-tile>
-            <app-resturant-card></app-resturant-card>
-        </mat-grid-tile>
-    </div>
-</mat-grid-list>
+<div class="wrapper">
+    <mat-grid-list cols="4">
+        <div class="contsiner" *ngFor="let i of restroList">
+            <mat-grid-tile>
+                <app-resturant-card></app-resturant-card>
+            </mat-grid-tile>
+        </div>
+    </mat-grid-list>
+</div>

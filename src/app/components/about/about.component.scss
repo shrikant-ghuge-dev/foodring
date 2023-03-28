@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .pad25 {
+        padding: 25px;
+
+        &.width-wrap {
+            width: 50%;
+        }
+
+        h2 {
+            margin-bottom: 2rem;
+            font-size: 1.7rem;
+            font-weight: 400;
+        }
+
+        p {
+            line-height: 1.5rem;
+        }
+
+        img {
+            width: 100%;
+            height: 21rem;
+        }
+    }
+}
+
+.about-wrapper {
+    margin: 3rem;
+}

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resturant-card.component.scss']
 })
 export class ResturantCardComponent implements OnInit {
+  price = 250;
 
   constructor() { }
 

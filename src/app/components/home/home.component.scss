@@ -1,0 +1,15 @@
+.wrapper {
+    margin-top: 30px;
+}
+
+::ng-deep {
+
+    .mat-grid-tile {
+        padding-top: calc((25% - 0.75px) * 1 + 10px) !important;
+
+        // margin-top: 10px !important;
+        .mat-grid-tile-content {
+            // margin: 20px 0;
+        }
+    }
+}

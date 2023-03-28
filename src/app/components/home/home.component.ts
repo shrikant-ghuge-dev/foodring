@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  restroList = [{}, {}, {}];
+  restroList = [{}, {}, {}, {}, {}, {}];
 
   constructor(private http: HttpClient) { }
 

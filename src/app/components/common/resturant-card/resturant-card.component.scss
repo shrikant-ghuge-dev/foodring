@@ -1,9 +1,16 @@
 .restro-container {
     text-align: center;
-    width: 15rem;
+    width: 17rem;
     border: 1px solid #fff;
-    margin: 1rem;
     padding: 1rem;
+
+    .discount {
+        color: #8a584b;
+        padding-top: 1rem;
+        font-size: 12px;
+        display: flex;
+        padding-left: 10px;
+    }
 
     &:hover {
         border: 1px solid #e0d7d7;
@@ -44,6 +51,7 @@
 
         .lbl {
             color: gray;
+            text-transform: uppercase;
         }
     }
 }
