@@ -43,6 +43,12 @@
             li {
                 margin: 20px;
                 cursor: pointer;
+                display: flex;
+                align-items: center;
+
+                .mat-icon {
+                    margin-right: 7px;
+                }
             }
         }
     }
